@@ -81,17 +81,29 @@ nav a{
   font-weight: 700;
   margin-top: 5px;
   margin-bottom: 20px;
+  
 }
 .banner-description{
   color: #474747;
   margin-top: 160;
 }
 /* main section styles */
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.about-info-container{
+  display: flex;
+  justify-content: space-around
+}
 /* about section styles */
  .about{
   padding: 130px;
   border-radius: 10px;
   background-color: #FFF8F3;
   margin: 130px 0;
+ }
+ .about-info{
+  text-align: center;
  }
 
