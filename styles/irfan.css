@@ -40,6 +40,9 @@ nav > ul{
   display: flex;
   align-items: center;
 }
+.fb:hover{
+  color: blue;
+}
 
 nav li{
   list-style: none;
@@ -65,6 +68,11 @@ nav a{
 }
 .banner .profile-pic{
   width: 400px;
+
+}
+#phone:hover{
+  cursor: pointer;
+  color: blue;
 
 }
 .banner-content{
